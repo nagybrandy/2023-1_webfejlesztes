@@ -1,25 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>A legjobb webes témájú filmek -</title>
+  <link rel="stylesheet" href="css/alap.css">
 </head>
 <body>
     <h2>Ugrás az oldalon belül</h2>
-    <p><!--link-->#tartalom - Ugrás a tartalomra<!--link vége--></p>
+    <p><a href="#tartalom">Ugrás a tartalomra</a></p>
     <p><h1>A legjobb &lt;internetes/webes&gt; témájú filmek</h1></p>
     <h2>Főmenü</h2>
-    <p><b>Kezdőlap</b> <!--link-->urlap.html - Új film beküldése<!--link vége--></p>
+    <p><b>Kezdőlap</b><a href="urlap.html" target="_blank">Új film beküldése</a></p>
+    <div id="bevezeto" class="hasab">
     <h2>Bevezető</h2>
-    <p><cite>Krasznahorkai László</cite> a következőt írta: <q>"Az internet (...) az eddigi legbiztosabb út az örökkévalóságba.".</q> <br>Hogy ez igaz-e, mindenki döntse el maga, miután megnézte a listámban szereplő filmeket.<br><strong>Figyelem!</strong> <em>A lista erősen szubjektív.</em></p>
-    <h2>Oldalmenü</h2>
-    <p><!--listaelem--><!--link-->#kozossegihalo - Social Network - A közösségi háló <!--link vége--><!--listaelem vége--></p>
-    <p><!--listaelem--><!--link-->#ano - A nő<!--link vége--><!--listaelem vége--></p>
-    <p><!--listaelem--><!--link-->#temegen - Te meg én és minden ismerősünk <!--link vége--><!--listaelem vége--></p>
-    <p><!--listaelem--><!--link-->#deepweb - Deep Web<!--link vége--><!--listaelem vége--></p>
-    <h2><cite>Social Network - A közösségi háló </cite></h2>
+      <p><cite>Krasznahorkai László</cite> a következőt írta: <q>"Az internet (...) az eddigi legbiztosabb út az örökkévalóságba.".</q> <br>Hogy ez igaz-e, mindenki döntse el maga, miután megnézte a listámban szereplő filmeket.<br><strong>Figyelem!</strong> <em>A lista erősen szubjektív.</em></p>
+      <h2>Oldalmenü</h2>
+      <ol>
+        <li><a href="#kozossegihalo" accesskey="1">Social Network - A közösségi háló </a></li>
+        <li><a href="#ano" accesskey="2">A nő</a></li>
+        <li><a href="#temegen" accesskey="3">Te meg én és minden ismerősünk </a></li>
+        <li><a href="#deepweb" accesskey="4">Deep Web</a></li>
+      </ol>
+     </div>
+    <h2 id="kozossegihalo"><cite><span lang="en">Social Network</span> - A közösségi háló </cite></h2>
     <h2>Adatlap</h2>
     <p><strong>A film adatai</strong></p>
     <p>Súgó</p>
@@ -52,8 +57,8 @@
     <h3>Filmzene</h3>
     <p>A filmzenéből <cite>Trent Reznor and Atticus Ross: A Familiar Taste</cite> című száma a kedvencem.</p>
      <p><!--beágyazás-->media/socialnetwork.mp3<!--beágyazás vége--></p>
-    <p><!--elválasztó vonal--></p>
-    <h2><cite>A nő</cite> </h2>
+    <hr>
+    <h2 id="ano"><cite>A nő</cite> </h2>
     <h2>Adatlap</h2>
     <p><strong>A film adatai</strong></p>
     <p>Súgó</p>
@@ -66,8 +71,8 @@
     <p><i>Spike Jonze A nővel gyakorlatilag megalkotta a tökéletes szerelmesfilmet, amelyből egyszerre derül ki, hogy ez az egész felhajtás mekkora baromság, és hogy nem érdemes élni nélküle.</i></p>
     <h3>A film előzetese</h3>
     <p><!--beágyazás-->media/her_elozetes.mp4<!--beágyazás vége--></p>
-    <p><!--elválasztó vonal--></p>
-    <h2><cite>Te meg én és minden ismerősünk</cite></h2>
+    <hr>
+    <h2 id="temegen"><cite>Te meg én és minden ismerősünk</cite></h2>
     <h2>Adatlap</h2>
     <p><strong>A film adatai</strong></p>
     <p>Súgó</p>
@@ -79,8 +84,8 @@
     <p><i>A  Miranda July korábbi műveiben felvetett témák folytatásának tekinthető Te meg én és minden ismerősünk leleplezi az emberek titkolt érzéseit, vágyait és motivációit. Az eredmény egy gyönyörű, egyedi film, amely észrevétlenül ejti rabul az ember szívét. </i></p>
     <p><!--beágyazás-->media/meandyou.jpg<!--beágyazás vége--></p>
     <p><!--felirat-->Jelenet a <cite>"Te meg én és minden ismerősünk"</cite> című filmből<!--felirat vége--></p>
-    <p><!--elválasztó vonal--></p>
-    <h2><cite>Deep web</cite></h2>
+    <hr>
+    <h2 id="deepweb"><cite>Deep web</cite></h2>
     <h2>Adatlap</h2>
     <p><strong>A film adatai</strong></p>
     <p>Súgó</p>
@@ -95,11 +100,13 @@
     <h3>Mi is az a deep web?</h3>
     <p>Az alábbi angol nyelvű prezentáció bemutatja, hogy mi is az a deep web</p>
     <p><!--beágyazás-->slideshare<!--beágyazás vége--></p>
-    <p><!--elválasztó vonal--></p>
+    <hr>
     <h2>Források</h2>
-    <p><!--listaelem--><!--link-->http://www.techtimes.com/articles/10259/20140711/the-best-movies-about-the-internet.htm - Techtimes.com<!--link vége--><!--listaelem vége--></p>
-     <p><!--listaelem--><!--link-->http://librarius.hu/2015/07/14/a-deep-web-megmutatja-a-virtualis-pokol-legmelyet/ - Librarius<!--link vége--> <!--listaelem vége--></p>
-    <p><!--elválasztó vonal--></p>
-    <p>Készítette: Gipsz Jakab <br>(<!--link-->mailto:gipszjakab@mailinator.com - gipszjakab@mailinator.com<!--link vége-->)<br>1117 Budapest, Nevenincs u. 17</p>
+    <ul>
+      <li><a href="http://www.techtimes.com/articles/10259/20140711/the-best-movies-about-the-internet.htm" target="_blank">Techtimes.com</a></li>
+      <li><a href="http://librarius.hu/2015/07/14/a-deep-web-megmutatja-a-virtualis-pokol-legmelyet/" target="_blank">Librarius</a> </li>
+    </ul> 
+     <hr>
+    <p>Készítette: Gipsz Jakab <br>(<a href="mailto:gipszjakab@mailinator.com">gipszjakab@mailinator.com</a>)<br>1117 Budapest, Nevenincs u. 17</p>
   </body>
 </html>
